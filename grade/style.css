@@ -1,15 +1,13 @@
 section {
     background: #ffffff73;
-    padding: 15px;
+    padding: 16px;
     margin: 10px;
 }
-
 footer {
-    background: #ffffff73;
-    padding: 15px;
+    background:#040f7073;
+    padding: 25%;
     margin: 10px;
 }
-
 input[type=text],
 select,
 textarea {
@@ -41,7 +39,7 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #1801e6;
     padding: 20px;
 }
 
@@ -71,13 +69,13 @@ input[type=submit]:hover {
 
 
 #title {
-    background: #ffffff73;
+    background:#040f7073;
     padding: 5px;
     margin: 10px;
 }
 
 #form-container {
-    border: 2px rgb(187, 44, 51) solid;
+    border: 2px rgb(44, 165, 187) solid;
 }
 
 .left {
