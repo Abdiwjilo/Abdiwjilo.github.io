@@ -1,0 +1,71 @@
+1.  First It will run into a SyntaxError: Unexpected token '}' because ther is an extra '}'
+    Considering the last brace removed the output would be: 10889101
+
+
+2.  A function is a block of code written to perform some specific set of tasks. 
+     - They can execute a set of instructions on data or variables and return the result.
+     - We can define a function using the function keyword, followed by Name and optional parameters.
+    A method, like a function, is a set of instructions that perform a task. 
+     - The difference is that a method is associated with an object, while a function is not.
+
+
+3.  The this keyword refers to the current object in a method or constructor.
+    The most common use of the this keyword is to eliminate the confusion 
+    between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter).
+    - 'this' is a reference to the current object
+    - Member of current object can be reffered by using this.
+    - In the global execution context (outside of any function), this refers to the global object whether in strict mode or not.
+    - Within a class constructor, this is a regular object.
+    - Inside a function, the value of this depends on how the function is called.
+
+
+4.   'this' is a reference to the current object
+    - Member of current object can be reffered by using this.
+    - In the global execution context (outside of any function), this refers to the global object whether in strict mode or not.
+    - Inside a function, the value of this depends on how the function is called.
+
+
+5.   Inside of a constructor function, the JavaScript keyword this refers to the object that will be created when that constructor is instantiated.
+
+
+6.   This will refer to the Object X.
+
+
+7.   Free variables are simply the variables that are neither locally declared nor passed as parameter.
+
+
+8.  var obj = {
+    name: "fred",
+    major: "music",
+    property: function(num1, num2){
+        if(num1 == num2){
+            return num1 * num2;
+        } 
+          else {
+            return Math.min(num1, num2);
+               }
+       }
+    }
+
+
+9.   function Employee(name, salary, position){
+        this.name = name;
+        this.salary = salary;
+        this.position = position;
+    }
+
+    var abdi = new Employee("Abdi Wako", 12000, "Full Stack Enginer");
+    var lencho = new Employee("Lencho Wako", 10000, "Frontend Developer"); 
+    var hawi = new Employee ("Hawi Wako", 11000, "Java Back End Developer");
+
+
+10.  function product (...nums){
+         let result = 1;
+         for(let i=0; i < nums.length; i++){
+             result *= nums[i];
+         }
+            return result;
+     }
+
+
+11. var maximum = (num1, num2, num3) =>   Math.max(num1, num2, num3);
