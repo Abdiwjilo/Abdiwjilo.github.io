@@ -6,7 +6,6 @@
  
  
 2.  <head>
-   	 <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
    	 <script>
         $(function(){
                 $( "div > h1" ).css("background", "#ff0000");
@@ -27,7 +26,6 @@
 3.  <!DOCTYPE html> 
     <html> 
     <head> 
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
         <script> 
             $(function(){
                 $("p").append("YES")
