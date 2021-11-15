@@ -1,0 +1,64 @@
+ h1,h2,h3,h4{
+    text-align: center;
+   
+}
+
+.form .form-body {
+    display: flex;
+    margin-top: 5px;
+}
+
+.form-body .form-label {
+    font-weight: bold;
+    width: 150px;
+}
+
+.form-body .form-input {
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.form-body input[type='number']:not(.form-input) {
+    width: 50px;
+    color: rgb(0, 7, 10);
+}
+
+
+
+.form-body .hint, footer .back {
+    color: #000000;
+    margin-left: 5px;
+}
+
+fieldset{
+    border-radius: 5px;
+    padding: 5px;
+    /* background-color: #eeeeee; */
+    box-shadow: 1px 2px 2px 1px #003079;
+    text-align: left;
+}
+
+fieldset legend {
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 2px 1px #013808;
+ 
+}
+
+fieldset p{
+    text-align: left;
+}
+
+.container {
+    width: 500px;
+    padding: 0 20px 20px 20px;
+    color:black;
+    margin: auto auto;
+}
+
+footer a, div.form-body a{
+    height: 24px;
+    display: inline-flex;
+    text-decoration: none;
+
+}
