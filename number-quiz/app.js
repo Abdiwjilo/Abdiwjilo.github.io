@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 2000;
+const port = 8080;
 const urlencodedParser = express.urlencoded({ extended: false })
 app.use(express.static('./'));
 
